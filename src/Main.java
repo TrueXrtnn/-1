@@ -68,6 +68,7 @@ public class Main {
         var WeightBoxer2 = 82.7;
         var DifferenceBetweenBoxer = WeightBoxer2 - WeightBoxer1;
         System.out.println("Разница между боксерами равна " + DifferenceBetweenBoxer + " кг ");
+        DifferenceBetweenBoxer = WeightBoxer2 % WeightBoxer1;
     }
     public static void task7() {
         System.out.println("Задача 7");
